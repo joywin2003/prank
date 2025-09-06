@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny website</title>
+</head>
+<body>
+    Plz don't copy me!
+</body>
+<script>
+    document.addEventListener('copy', (event) => {
+        event.clipboardData.setData('text/plain', "If you have pasted this text then you are gay");
+        event.preventDefault();
+    });
+</script>
+</html>
